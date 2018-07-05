@@ -5,7 +5,7 @@ function getNotificationList () {
   const data = Mock.mock({
     errorCode: 1,
     msg: '@title(5, 20)',
-    'data|3': [
+    'data|13': [
       {
         'id': '@id',
         'notificationId': '@id',
@@ -24,13 +24,13 @@ function getNotificationList () {
 
 function getCapitalList () {
   const data = Mock.mock({
-    'data|11': [
+    'data|3': [
       {
         'amount|100-99999.2': 1,
         'transactionAt': '@datetime("MM dd,yyyy HH:mm")',
         "transactionType|1": [
           "payment",
-          "disburment",
+          "disbursement",
         ],
         'transactionParty|1': [
           "To ICBC ending 4563",
