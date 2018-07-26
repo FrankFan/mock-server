@@ -23,7 +23,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // 增加CORS跨域
 app.all('*', function(req, res, next) {
-  res.header('Access-Control-Allow-Origin', 'http://192.168.12.12:8080');
+  // res.header('Access-Control-Allow-Origin', 'http://192.168.12.12:8080');
+  res.header('Access-Control-Allow-Origin', '*');
   res.header('Access-Control-Allow-Headers', 'X-Request-With');
   res.header('Access-Control-Allow-Methods', 'GET,POST,OPTIONS,DELETE,PUT');
   // res.header("Content-Type", "application/json;charset=utf-8");

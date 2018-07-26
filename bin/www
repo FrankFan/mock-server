@@ -7,6 +7,7 @@
 var app = require('../app');
 var debug = require('debug')('mock-server:server');
 var http = require('http');
+var getIPAdress = require('../utils/getIP');
 
 /**
  * Get port from environment and store in Express.
@@ -88,17 +89,4 @@ function onListening() {
     : 'port ' + addr.port;
   debug('Listening on ' + bind);
   console.log(`\n Server run at http://${getIPAdress()}:${addr.port} \n`);
-}
-
-function getIPAdress() {
-  var interfaces = require('os').networkInterfaces();
-  for(var devName in interfaces){
-    var iface = interfaces[devName];
-    for(var i=0;i<iface.length;i++){
-      var alias = iface[i];
-      if(alias.family === 'IPv4' && alias.address !== '127.0.0.1' && !alias.internal){
-        return alias.address;
-      }
-    }
-  }
 }
