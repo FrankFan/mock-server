@@ -48,7 +48,72 @@ function getCapitalList () {
   return data;
 }
 
+function getInviteList () {
+  const data = Mock.mock({
+    'data|1': [
+      {
+        "errorCode": 0,
+        "msg": "success",
+        "data": {
+          "currentPage": 1,
+          "pageSize": 5,
+          "totalNum": 5,
+          "isMore": 94210,
+          "totalPage": 1,
+          "startIndex": 25697,
+          "items": [{
+            "number": 8,
+            "mobile": "091****6972",
+            "registrationDate": "Jul 8, 2018",
+            "applied": "Yes"
+          }, {
+            "number": 7,
+            "mobile": "091****6972",
+            "registrationDate": "Jul 8, 2018",
+            "applied": "Not yet"
+          }, {
+            "number": 6,
+            "mobile": "091****6972",
+            "registrationDate": "Jul 8, 2018",
+            "applied": "Yes"
+          }]
+        }
+      }
+    ]
+  });
+  return data;
+}
+
+function getShareContent () {
+  const data = Mock.mock({
+    'data': [
+      {
+        "errorCode": 0,
+        "msg": "success",
+        "data": [{
+          "channel": "Copy as text",
+          "url": "111111",
+          "title": "22222",
+          "subtitle": "33333",
+          "imageUrl": "444444",
+          "messageBody": "这是Copy as text的内容"
+        }, {
+          "channel": "Facebook",
+          "url": "1111",
+          "title": "22222",
+          "subtitle": "3333",
+          "imageUrl": "444",
+          "messageBody": "5555"
+        }]
+      }
+    ]
+  });
+  return data;
+}
+
 module.exports = {
   getNotificationList,
   getCapitalList,
+  getInviteList,
+  getShareContent,
 };
