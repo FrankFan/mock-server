@@ -111,9 +111,43 @@ function getShareContent () {
   return data;
 }
 
+function getPaymentOptions() {
+  const data = Mock.mock({
+    'data': [
+      {
+        "errorCode": 0,
+        "msg": "success",
+        "data": [{
+          "name": "Robinsons Bank",
+          "channel": "RSB",
+          "imgUrl": "https://s3-ap-southeast-1.amazonaws.com/cashalo-app/image/banklogo_Robinsons%403x.png",
+          "description": "Pay via Robinsons Bank Online"
+        }, {
+          "name": "Online Banking",
+          "channel": "DP",
+          "imgUrl": "https://s3-ap-southeast-1.amazonaws.com/cashalo-app/image/payment_icon_onlinebank%403x.png",
+          "description": "Pay via BPI, BDO, or Metrobank Online Banking"
+        }, {
+          "name": "ECPay",
+          "channel": "ECPay",
+          "imgUrl": "",
+          "description": "Accessible daily Mon-Sun"
+        }, {
+          "name": "7-Eleven",
+          "channel": "7-Eleven",
+          "imgUrl": "",
+          "description": "Open Mon-Sun 10AM-7PM"
+        }]
+      }
+    ]
+  });
+  return data;
+}
+
 module.exports = {
   getNotificationList,
   getCapitalList,
   getInviteList,
   getShareContent,
+  getPaymentOptions,
 };

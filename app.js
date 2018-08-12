@@ -10,6 +10,7 @@ var listRouter = require('./routes/msgList');
 var capitalListRouter = require('./routes/capitalList');
 var inviteListRouter = require('./routes/inviteList');
 var shareContentRouter = require('./routes/shareContent')
+var paymentOptionsRouter = require('./routes/paymentOptions')
 
 var app = express();
 
@@ -41,6 +42,7 @@ app.use('/msgList', listRouter);
 app.use('/capitalList', capitalListRouter);
 app.use('/inviteList', inviteListRouter);
 app.use('/shareContent', shareContentRouter);
+app.use('/paymentOptions', paymentOptionsRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
