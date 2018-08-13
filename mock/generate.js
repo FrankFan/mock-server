@@ -144,10 +144,24 @@ function getPaymentOptions() {
   return data;
 }
 
+function getPaymentUrl () {
+  const data = Mock.mock({
+    'data': {
+      "errorCode": 0,
+      "msg": "success",
+      "data": {
+        "paymentUrl": "https://m.cashalo.com/rbank-payment/#/?channel=ECPay&orderNo=B180613123457153"
+      }
+    }
+  });
+  return data;
+}
+
 module.exports = {
   getNotificationList,
   getCapitalList,
   getInviteList,
   getShareContent,
   getPaymentOptions,
+  getPaymentUrl,
 };
