@@ -57,7 +57,7 @@ function getInviteList () {
         "data": {
           "currentPage": 1,
           "pageSize": 5,
-          "totalNum": 64,
+          "totalNum": 26,
           "isMore": 94210,
           "totalPage": 1,
           "startIndex": 25697,
@@ -121,14 +121,32 @@ function getShareContent () {
           "title": "22222",
           "subtitle": "33333",
           "imageUrl": "444444",
-          "messageBody": "这是Copy as text的内容"
+          "messageBody": "这是Copy as text的内容",
+          "iconUrl": "https://s3-ap-southeast-1.amazonaws.com/oriente-resource/common/invite/invitefriend_icon_email@2x.png"
         }, {
           "channel": "Facebook",
           "url": "1111",
           "title": "22222",
           "subtitle": "3333",
           "imageUrl": "444",
-          "messageBody": "5555"
+          "messageBody": "5555",
+          "iconUrl": "https://s3-ap-southeast-1.amazonaws.com/oriente-resource/common/invite/invitefriend_icon_fb@2x.png"
+        },{
+          "channel": "Copy as text",
+          "url": "111111",
+          "title": "22222",
+          "subtitle": "33333",
+          "imageUrl": "444444",
+          "messageBody": "这是Copy as text的内容",
+          "iconUrl": "https://s3-ap-southeast-1.amazonaws.com/oriente-resource/common/invite/invitefriend_icon_email@2x.png"
+        }, {
+          "channel": "Facebook",
+          "url": "1111",
+          "title": "22222",
+          "subtitle": "3333",
+          "imageUrl": "444",
+          "messageBody": "5555",
+          "iconUrl": "https://s3-ap-southeast-1.amazonaws.com/oriente-resource/common/invite/invitefriend_icon_fb@2x.png"
         }]
       }
     ]
