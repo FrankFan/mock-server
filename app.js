@@ -9,9 +9,10 @@ var usersRouter = require('./routes/users');
 var listRouter = require('./routes/msgList');
 var capitalListRouter = require('./routes/capitalList');
 var inviteListRouter = require('./routes/inviteList');
-var shareContentRouter = require('./routes/shareContent')
-var paymentOptionsRouter = require('./routes/paymentOptions')
-var getPaymentRouter = require('./routes/getPaymentUrl')
+var shareContentRouter = require('./routes/shareContent');
+var paymentOptionsRouter = require('./routes/paymentOptions');
+var paymentOptionsRouter2 = require('./routes/paymentOptions2');
+var getPaymentRouter = require('./routes/getPaymentUrl');
 
 var app = express();
 
@@ -44,6 +45,7 @@ app.use('/capitalList', capitalListRouter);
 app.use('/inviteList', inviteListRouter);
 app.use('/shareContent', shareContentRouter);
 app.use('/paymentOptions', paymentOptionsRouter);
+app.use('/paymentOptions2', paymentOptionsRouter2);
 app.use('/getPaymentUrl', getPaymentRouter);
 
 // catch 404 and forward to error handler

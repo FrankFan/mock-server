@@ -187,6 +187,160 @@ function getPaymentOptions() {
   return data;
 }
 
+function getPaymentOptions2() {
+  const data = Mock.mock({
+    "errorCode": 3709,
+    "msg": "success",
+    "data": [
+      {
+        "id": 1,
+        "name": "Remittance & Payment Center",
+        "channel": "RPC",
+        "imgUrl": "http://xzc.spdoxhibzk.slixeh",
+        "seqNo": 1,
+        "level": 1,
+        "parentId": 61307,
+        "optionCode": "1",
+        "childList": [
+          {
+            "id": 61417,
+            "name": "jzKbEPDa4v",
+            "channel": "GgSaQHFCKf",
+            "imgUrl": "http://ojb.aqdcvmasbxgpsh.vcrzs",
+            "seqNo": "6wvbutUKCx",
+            "description": "8QafNaXkm1",
+            "level": "4VF7QLumVR",
+            "parentId": 62342,
+            "optionCode": "6c4biIifoY",
+            "payMode": "TsWPO93juL"
+          },
+          {
+            "id": 63291,
+            "name": "RZDyjRvr04",
+            "channel": "Sy8BmTGy8Q",
+            "imgUrl": "http://mxa.qwpvrtdyuttdc.pub",
+            "seqNo": "PCP8nxHPBU",
+            "description": "bRP7U1dJeU",
+            "level": "QHWB0OsQ1R",
+            "parentId": 63543,
+            "optionCode": "ggVW348OQ0",
+            "payMode": "7LzIzDxyy1"
+          },
+          {
+            "id": 63622,
+            "name": "ZZMLYCAi7J",
+            "channel": "d1eHCVS24M",
+            "imgUrl": "http://jix.ochfcmuj.eurzbry",
+            "seqNo": "UZHyj0GbE2",
+            "description": "C806IC56LZ",
+            "level": "jCTOuvlskh",
+            "parentId": 63820,
+            "optionCode": "SFT86G5pvs",
+            "payMode": "4VK7QAGmp3"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Remittance & Payment Center",
+        "channel": "RPC",
+        "imgUrl": "http://dgx.hhowemvfhmlo.sdnqt",
+        "seqNo": 1,
+        "level": 1,
+        "parentId": 64712,
+        "optionCode": "1",
+        "childList": [
+          {
+            "id": 65522,
+            "name": "SY9zOY0Iht",
+            "channel": "3tm92Fal0F",
+            "imgUrl": "http://uro.oytnbahwrl.qdh",
+            "seqNo": "RJmWKVK5Xz",
+            "description": "LFEN8DzxXd",
+            "level": "QMEJE8Wuyy",
+            "parentId": 66510,
+            "optionCode": "PU1fqDf5bV",
+            "payMode": "k1hDhVZXnt"
+          },
+          {
+            "id": 66829,
+            "name": "zNHD0mDdhU",
+            "channel": "Jkk8j7r1fv",
+            "imgUrl": "http://haq.bhpqliflkaukpb.yqt",
+            "seqNo": "DXpWxgJnuD",
+            "description": "QctDEdzpw4",
+            "level": "7LUXTOyMj8",
+            "parentId": 67339,
+            "optionCode": "ezF2JCTIMX",
+            "payMode": "6ZPgUeUAHB"
+          },
+          {
+            "id": 67697,
+            "name": "pf9TZDDaiw",
+            "channel": "6DCpDNko3a",
+            "imgUrl": "http://fdf.sphsraidesxql.wjf",
+            "seqNo": "jZAtGfKrhw",
+            "description": "95x4nDFxYr",
+            "level": "uYbnbrfe0Y",
+            "parentId": 68584,
+            "optionCode": "bwUbvcc3J4",
+            "payMode": "zXjeb96wco"
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "name": "Remittance & Payment Center",
+        "channel": "RPC",
+        "imgUrl": "http://exh.nbbhpq.jzgaxs",
+        "seqNo": 1,
+        "level": 1,
+        "parentId": 69332,
+        "optionCode": "1",
+        "childList": [
+          {
+            "id": 70260,
+            "name": "3VvvXFNGt6",
+            "channel": "i1AqLiF6bD",
+            "imgUrl": "http://qdo.apugviyfbgijir.giyb",
+            "seqNo": "2bAkFS4WKg",
+            "description": "ddtexuaf6R",
+            "level": "eNNIKXl84l",
+            "parentId": 70982,
+            "optionCode": "fEZp3hcpBZ",
+            "payMode": "ePlgsvx6fw"
+          },
+          {
+            "id": 71744,
+            "name": "kLZT8bOivF",
+            "channel": "4u7rnFZnD7",
+            "imgUrl": "http://ljb.ximheutj.eqz",
+            "seqNo": "aLlXVWSv0I",
+            "description": "9AEO9vnotn",
+            "level": "uu7x5690Gi",
+            "parentId": 72325,
+            "optionCode": "2lVoHbu7QQ",
+            "payMode": "KUVYziWAyk"
+          },
+          {
+            "id": 72333,
+            "name": "fEinyJyzEX",
+            "channel": "8bkX5KGxLo",
+            "imgUrl": "http://opf.jaioeu.dqrzzi",
+            "seqNo": "L1dtZZy5Sw",
+            "description": "5vWxL3lTRT",
+            "level": "vq8mGTXrC3",
+            "parentId": 72730,
+            "optionCode": "aBlu0hEHPc",
+            "payMode": "fppYw5n6oP"
+          }
+        ]
+      }
+    ]
+  });
+  return data;
+}
+
 function getPaymentUrl () {
   const data = Mock.mock({
     'data': {
@@ -206,5 +360,6 @@ module.exports = {
   getInviteList,
   getShareContent,
   getPaymentOptions,
+  getPaymentOptions2,
   getPaymentUrl,
 };
