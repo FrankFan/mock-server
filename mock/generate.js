@@ -24,10 +24,10 @@ function getNotificationList () {
 
 function getCapitalList () {
   const data = Mock.mock({
-    'data|1': [
+    'data|13': [
       {
         'amount|100-99999.2': 1,
-        'transactionAt': '@datetime("MM dd,yyyy HH:mm")',
+        'transactionAt': 'May 10, 2018 12:24',
         "transactionType|1": [
           "payment",
           "disbursement",

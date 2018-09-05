@@ -14,6 +14,9 @@ var paymentOptionsRouter = require('./routes/paymentOptions');
 var paymentOptionsRouter2 = require('./routes/paymentOptions2');
 var getPaymentRouter = require('./routes/getPaymentUrl');
 
+// Finmas
+var transactionListRouter = require('./routes/transactionList');
+
 var app = express();
 
 // view engine setup
@@ -47,6 +50,9 @@ app.use('/shareContent', shareContentRouter);
 app.use('/paymentOptions', paymentOptionsRouter);
 app.use('/paymentOptions2', paymentOptionsRouter2);
 app.use('/getPaymentUrl', getPaymentRouter);
+
+// Finmas
+app.use('/finmas/transactionList', transactionListRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
