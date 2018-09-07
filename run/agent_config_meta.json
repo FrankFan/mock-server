@@ -177,7 +177,8 @@
       "egg-view-nunjucks": "/Users/khanfan/workspace/github/mock-server/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
-      "egg-bin": "/Users/khanfan/workspace/github/mock-server/node_modules/egg/config/config.default.js"
+      "egg-bin": "/Users/khanfan/workspace/github/mock-server/node_modules/egg/config/config.default.js",
+      "mockjs": "/Users/khanfan/workspace/github/mock-server/node_modules/egg/config/config.default.js"
     }
   },
   "baseDir": "/Users/khanfan/workspace/github/mock-server/node_modules/egg/config/config.default.js",

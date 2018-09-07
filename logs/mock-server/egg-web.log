@@ -874,3 +874,577 @@
 2018-09-07 11:36:08,502 INFO 12828 [egg:core] dump config after load, 6ms
 2018-09-07 11:36:08,521 INFO 12828 [egg-watcher:app] watcher start success
 2018-09-07 11:36:08,537 INFO 12828 [egg:core] dump config after ready, 13ms
+2018-09-07 11:50:38,106 INFO 14230 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 11:50:38,146 INFO 14230 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 11:50:38,146 INFO 14230 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 11:50:38,224 INFO 14230 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 11:50:38,226 INFO 14230 [egg-security] use csrf middleware
+2018-09-07 11:50:38,227 INFO 14230 [egg-security] use methodnoallow middleware
+2018-09-07 11:50:38,228 INFO 14230 [egg-security] use noopen middleware
+2018-09-07 11:50:38,229 INFO 14230 [egg-security] use nosniff middleware
+2018-09-07 11:50:38,230 INFO 14230 [egg-security] use xssProtection middleware
+2018-09-07 11:50:38,231 INFO 14230 [egg-security] use xframe middleware
+2018-09-07 11:50:38,232 INFO 14230 [egg-security] use dta middleware
+2018-09-07 11:50:38,232 INFO 14230 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 11:50:38,243 INFO 14230 [egg:core] dump config after load, 4ms
+2018-09-07 11:50:38,254 INFO 14230 [egg-watcher:app] watcher start success
+2018-09-07 11:50:38,258 INFO 14230 [egg:core] dump config after ready, 3ms
+2018-09-07 13:44:45,989 INFO 16881 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 13:44:46,033 INFO 16881 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 13:44:46,033 INFO 16881 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 13:44:46,107 INFO 16881 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 13:44:46,110 INFO 16881 [egg-security] use csrf middleware
+2018-09-07 13:44:46,111 INFO 16881 [egg-security] use methodnoallow middleware
+2018-09-07 13:44:46,111 INFO 16881 [egg-security] use noopen middleware
+2018-09-07 13:44:46,113 INFO 16881 [egg-security] use nosniff middleware
+2018-09-07 13:44:46,113 INFO 16881 [egg-security] use xssProtection middleware
+2018-09-07 13:44:46,114 INFO 16881 [egg-security] use xframe middleware
+2018-09-07 13:44:46,115 INFO 16881 [egg-security] use dta middleware
+2018-09-07 13:44:46,115 INFO 16881 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 13:44:46,160 INFO 16881 [egg:core] dump config after load, 5ms
+2018-09-07 13:44:46,171 INFO 16881 [egg-watcher:app] watcher start success
+2018-09-07 13:44:46,176 INFO 16881 [egg:core] dump config after ready, 4ms
+2018-09-07 13:45:08,946 INFO 16904 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 13:45:08,994 INFO 16904 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 13:45:08,994 INFO 16904 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 13:45:09,068 INFO 16904 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 13:45:09,071 INFO 16904 [egg-security] use csrf middleware
+2018-09-07 13:45:09,072 INFO 16904 [egg-security] use methodnoallow middleware
+2018-09-07 13:45:09,073 INFO 16904 [egg-security] use noopen middleware
+2018-09-07 13:45:09,074 INFO 16904 [egg-security] use nosniff middleware
+2018-09-07 13:45:09,075 INFO 16904 [egg-security] use xssProtection middleware
+2018-09-07 13:45:09,076 INFO 16904 [egg-security] use xframe middleware
+2018-09-07 13:45:09,076 INFO 16904 [egg-security] use dta middleware
+2018-09-07 13:45:09,076 INFO 16904 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 13:45:09,121 INFO 16904 [egg:core] dump config after load, 5ms
+2018-09-07 13:45:09,132 INFO 16904 [egg-watcher:app] watcher start success
+2018-09-07 13:45:09,137 INFO 16904 [egg:core] dump config after ready, 3ms
+2018-09-07 13:45:19,907 INFO 16924 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 13:45:19,944 INFO 16924 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 13:45:19,944 INFO 16924 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 13:45:19,979 INFO 16924 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 13:45:19,981 INFO 16924 [egg-security] use csrf middleware
+2018-09-07 13:45:19,982 INFO 16924 [egg-security] use methodnoallow middleware
+2018-09-07 13:45:19,982 INFO 16924 [egg-security] use noopen middleware
+2018-09-07 13:45:19,982 INFO 16924 [egg-security] use nosniff middleware
+2018-09-07 13:45:19,982 INFO 16924 [egg-security] use xssProtection middleware
+2018-09-07 13:45:19,983 INFO 16924 [egg-security] use xframe middleware
+2018-09-07 13:45:19,983 INFO 16924 [egg-security] use dta middleware
+2018-09-07 13:45:19,983 INFO 16924 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 13:45:20,025 INFO 16924 [egg:core] dump config after load, 3ms
+2018-09-07 13:45:20,032 INFO 16924 [egg-watcher:app] watcher start success
+2018-09-07 13:45:20,037 INFO 16924 [egg:core] dump config after ready, 3ms
+2018-09-07 13:47:22,187 INFO 16988 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 13:47:22,262 INFO 16988 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 13:47:22,262 INFO 16988 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 13:47:22,385 INFO 16988 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 13:47:22,388 INFO 16988 [egg-security] use csrf middleware
+2018-09-07 13:47:22,389 INFO 16988 [egg-security] use methodnoallow middleware
+2018-09-07 13:47:22,390 INFO 16988 [egg-security] use noopen middleware
+2018-09-07 13:47:22,391 INFO 16988 [egg-security] use nosniff middleware
+2018-09-07 13:47:22,392 INFO 16988 [egg-security] use xssProtection middleware
+2018-09-07 13:47:22,392 INFO 16988 [egg-security] use xframe middleware
+2018-09-07 13:47:22,393 INFO 16988 [egg-security] use dta middleware
+2018-09-07 13:47:22,393 INFO 16988 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 13:47:22,441 INFO 16988 [egg:core] dump config after load, 4ms
+2018-09-07 13:47:22,449 INFO 16988 [egg-watcher:app] watcher start success
+2018-09-07 13:47:22,454 INFO 16988 [egg:core] dump config after ready, 3ms
+2018-09-07 13:47:46,137 INFO 17361 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 13:47:46,175 INFO 17361 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 13:47:46,175 INFO 17361 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 13:47:46,247 INFO 17361 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 13:47:46,249 INFO 17361 [egg-security] use csrf middleware
+2018-09-07 13:47:46,250 INFO 17361 [egg-security] use methodnoallow middleware
+2018-09-07 13:47:46,251 INFO 17361 [egg-security] use noopen middleware
+2018-09-07 13:47:46,252 INFO 17361 [egg-security] use nosniff middleware
+2018-09-07 13:47:46,253 INFO 17361 [egg-security] use xssProtection middleware
+2018-09-07 13:47:46,253 INFO 17361 [egg-security] use xframe middleware
+2018-09-07 13:47:46,254 INFO 17361 [egg-security] use dta middleware
+2018-09-07 13:47:46,254 INFO 17361 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 13:47:46,321 INFO 17361 [egg:core] dump config after load, 3ms
+2018-09-07 13:47:46,333 INFO 17361 [egg-watcher:app] watcher start success
+2018-09-07 13:47:46,338 INFO 17361 [egg:core] dump config after ready, 3ms
+2018-09-07 13:49:08,991 INFO 17510 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 13:49:09,040 INFO 17510 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 13:49:09,040 INFO 17510 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 13:49:09,111 INFO 17510 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 13:49:09,114 INFO 17510 [egg-security] use csrf middleware
+2018-09-07 13:49:09,115 INFO 17510 [egg-security] use methodnoallow middleware
+2018-09-07 13:49:09,116 INFO 17510 [egg-security] use noopen middleware
+2018-09-07 13:49:09,117 INFO 17510 [egg-security] use nosniff middleware
+2018-09-07 13:49:09,118 INFO 17510 [egg-security] use xssProtection middleware
+2018-09-07 13:49:09,119 INFO 17510 [egg-security] use xframe middleware
+2018-09-07 13:49:09,120 INFO 17510 [egg-security] use dta middleware
+2018-09-07 13:49:09,120 INFO 17510 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 13:49:09,165 INFO 17510 [egg:core] dump config after load, 4ms
+2018-09-07 13:49:09,174 INFO 17510 [egg-watcher:app] watcher start success
+2018-09-07 13:49:09,180 INFO 17510 [egg:core] dump config after ready, 3ms
+2018-09-07 13:49:48,807 INFO 17541 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 13:49:48,840 INFO 17541 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 13:49:48,840 INFO 17541 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 13:49:48,877 INFO 17541 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 13:49:48,879 INFO 17541 [egg-security] use csrf middleware
+2018-09-07 13:49:48,880 INFO 17541 [egg-security] use methodnoallow middleware
+2018-09-07 13:49:48,880 INFO 17541 [egg-security] use noopen middleware
+2018-09-07 13:49:48,881 INFO 17541 [egg-security] use nosniff middleware
+2018-09-07 13:49:48,881 INFO 17541 [egg-security] use xssProtection middleware
+2018-09-07 13:49:48,881 INFO 17541 [egg-security] use xframe middleware
+2018-09-07 13:49:48,881 INFO 17541 [egg-security] use dta middleware
+2018-09-07 13:49:48,881 INFO 17541 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 13:49:48,925 INFO 17541 [egg:core] dump config after load, 4ms
+2018-09-07 13:49:48,934 INFO 17541 [egg-watcher:app] watcher start success
+2018-09-07 13:49:48,938 INFO 17541 [egg:core] dump config after ready, 3ms
+2018-09-07 13:49:55,583 INFO 17553 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 13:49:55,616 INFO 17553 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 13:49:55,616 INFO 17553 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 13:49:55,653 INFO 17553 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 13:49:55,656 INFO 17553 [egg-security] use csrf middleware
+2018-09-07 13:49:55,656 INFO 17553 [egg-security] use methodnoallow middleware
+2018-09-07 13:49:55,656 INFO 17553 [egg-security] use noopen middleware
+2018-09-07 13:49:55,657 INFO 17553 [egg-security] use nosniff middleware
+2018-09-07 13:49:55,657 INFO 17553 [egg-security] use xssProtection middleware
+2018-09-07 13:49:55,657 INFO 17553 [egg-security] use xframe middleware
+2018-09-07 13:49:55,658 INFO 17553 [egg-security] use dta middleware
+2018-09-07 13:49:55,658 INFO 17553 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 13:49:55,699 INFO 17553 [egg:core] dump config after load, 3ms
+2018-09-07 13:49:55,707 INFO 17553 [egg-watcher:app] watcher start success
+2018-09-07 13:49:55,711 INFO 17553 [egg:core] dump config after ready, 2ms
+2018-09-07 13:50:11,601 INFO 17566 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 13:50:11,651 INFO 17566 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 13:50:11,651 INFO 17566 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 13:50:11,721 INFO 17566 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 13:50:11,724 INFO 17566 [egg-security] use csrf middleware
+2018-09-07 13:50:11,724 INFO 17566 [egg-security] use methodnoallow middleware
+2018-09-07 13:50:11,725 INFO 17566 [egg-security] use noopen middleware
+2018-09-07 13:50:11,726 INFO 17566 [egg-security] use nosniff middleware
+2018-09-07 13:50:11,727 INFO 17566 [egg-security] use xssProtection middleware
+2018-09-07 13:50:11,728 INFO 17566 [egg-security] use xframe middleware
+2018-09-07 13:50:11,728 INFO 17566 [egg-security] use dta middleware
+2018-09-07 13:50:11,728 INFO 17566 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 13:50:11,771 INFO 17566 [egg:core] dump config after load, 3ms
+2018-09-07 13:50:11,780 INFO 17566 [egg-watcher:app] watcher start success
+2018-09-07 13:50:11,786 INFO 17566 [egg:core] dump config after ready, 5ms
+2018-09-07 13:50:50,845 INFO 17610 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 13:50:50,892 INFO 17610 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 13:50:50,892 INFO 17610 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 13:50:50,973 INFO 17610 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 13:50:50,976 INFO 17610 [egg-security] use csrf middleware
+2018-09-07 13:50:50,977 INFO 17610 [egg-security] use methodnoallow middleware
+2018-09-07 13:50:50,978 INFO 17610 [egg-security] use noopen middleware
+2018-09-07 13:50:50,979 INFO 17610 [egg-security] use nosniff middleware
+2018-09-07 13:50:50,980 INFO 17610 [egg-security] use xssProtection middleware
+2018-09-07 13:50:50,981 INFO 17610 [egg-security] use xframe middleware
+2018-09-07 13:50:50,981 INFO 17610 [egg-security] use dta middleware
+2018-09-07 13:50:50,981 INFO 17610 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 13:50:51,030 INFO 17610 [egg:core] dump config after load, 5ms
+2018-09-07 13:50:51,039 INFO 17610 [egg-watcher:app] watcher start success
+2018-09-07 13:50:51,044 INFO 17610 [egg:core] dump config after ready, 3ms
+2018-09-07 14:00:15,123 INFO 17921 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 14:00:15,160 INFO 17921 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 14:00:15,160 INFO 17921 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 14:00:15,237 INFO 17921 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 14:00:15,240 INFO 17921 [egg-security] use csrf middleware
+2018-09-07 14:00:15,241 INFO 17921 [egg-security] use methodnoallow middleware
+2018-09-07 14:00:15,242 INFO 17921 [egg-security] use noopen middleware
+2018-09-07 14:00:15,243 INFO 17921 [egg-security] use nosniff middleware
+2018-09-07 14:00:15,244 INFO 17921 [egg-security] use xssProtection middleware
+2018-09-07 14:00:15,245 INFO 17921 [egg-security] use xframe middleware
+2018-09-07 14:00:15,245 INFO 17921 [egg-security] use dta middleware
+2018-09-07 14:00:15,245 INFO 17921 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 14:00:15,301 INFO 17921 [egg:core] dump config after load, 8ms
+2018-09-07 14:00:15,313 INFO 17921 [egg-watcher:app] watcher start success
+2018-09-07 14:00:15,318 INFO 17921 [egg:core] dump config after ready, 3ms
+2018-09-07 14:00:25,856 INFO 17940 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 14:00:25,905 INFO 17940 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 14:00:25,905 INFO 17940 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 14:00:25,987 INFO 17940 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 14:00:25,990 INFO 17940 [egg-security] use csrf middleware
+2018-09-07 14:00:25,991 INFO 17940 [egg-security] use methodnoallow middleware
+2018-09-07 14:00:25,992 INFO 17940 [egg-security] use noopen middleware
+2018-09-07 14:00:25,993 INFO 17940 [egg-security] use nosniff middleware
+2018-09-07 14:00:25,993 INFO 17940 [egg-security] use xssProtection middleware
+2018-09-07 14:00:25,994 INFO 17940 [egg-security] use xframe middleware
+2018-09-07 14:00:25,995 INFO 17940 [egg-security] use dta middleware
+2018-09-07 14:00:25,995 INFO 17940 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 14:00:26,042 INFO 17940 [egg:core] dump config after load, 3ms
+2018-09-07 14:00:26,051 INFO 17940 [egg-watcher:app] watcher start success
+2018-09-07 14:00:26,056 INFO 17940 [egg:core] dump config after ready, 3ms
+2018-09-07 14:01:03,801 INFO 17963 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 14:01:03,849 INFO 17963 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 14:01:03,849 INFO 17963 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 14:01:03,910 INFO 17963 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 14:01:03,914 INFO 17963 [egg-security] use csrf middleware
+2018-09-07 14:01:03,916 INFO 17963 [egg-security] use methodnoallow middleware
+2018-09-07 14:01:03,917 INFO 17963 [egg-security] use noopen middleware
+2018-09-07 14:01:03,918 INFO 17963 [egg-security] use nosniff middleware
+2018-09-07 14:01:03,919 INFO 17963 [egg-security] use xssProtection middleware
+2018-09-07 14:01:03,920 INFO 17963 [egg-security] use xframe middleware
+2018-09-07 14:01:03,920 INFO 17963 [egg-security] use dta middleware
+2018-09-07 14:01:03,920 INFO 17963 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 14:01:03,966 INFO 17963 [egg:core] dump config after load, 5ms
+2018-09-07 14:01:03,974 INFO 17963 [egg-watcher:app] watcher start success
+2018-09-07 14:01:03,979 INFO 17963 [egg:core] dump config after ready, 3ms
+2018-09-07 14:01:23,573 INFO 18002 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 14:01:23,619 INFO 18002 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 14:01:23,619 INFO 18002 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 14:01:23,690 INFO 18002 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 14:01:23,693 INFO 18002 [egg-security] use csrf middleware
+2018-09-07 14:01:23,694 INFO 18002 [egg-security] use methodnoallow middleware
+2018-09-07 14:01:23,695 INFO 18002 [egg-security] use noopen middleware
+2018-09-07 14:01:23,697 INFO 18002 [egg-security] use nosniff middleware
+2018-09-07 14:01:23,698 INFO 18002 [egg-security] use xssProtection middleware
+2018-09-07 14:01:23,698 INFO 18002 [egg-security] use xframe middleware
+2018-09-07 14:01:23,699 INFO 18002 [egg-security] use dta middleware
+2018-09-07 14:01:23,699 INFO 18002 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 14:01:23,745 INFO 18002 [egg:core] dump config after load, 5ms
+2018-09-07 14:01:23,754 INFO 18002 [egg-watcher:app] watcher start success
+2018-09-07 14:01:23,760 INFO 18002 [egg:core] dump config after ready, 4ms
+2018-09-07 14:04:01,630 INFO 18098 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 14:04:01,691 INFO 18098 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 14:04:01,691 INFO 18098 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 14:04:01,751 INFO 18098 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 14:04:01,754 INFO 18098 [egg-security] use csrf middleware
+2018-09-07 14:04:01,755 INFO 18098 [egg-security] use methodnoallow middleware
+2018-09-07 14:04:01,756 INFO 18098 [egg-security] use noopen middleware
+2018-09-07 14:04:01,757 INFO 18098 [egg-security] use nosniff middleware
+2018-09-07 14:04:01,758 INFO 18098 [egg-security] use xssProtection middleware
+2018-09-07 14:04:01,759 INFO 18098 [egg-security] use xframe middleware
+2018-09-07 14:04:01,760 INFO 18098 [egg-security] use dta middleware
+2018-09-07 14:04:01,760 INFO 18098 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 14:04:01,810 INFO 18098 [egg:core] dump config after load, 4ms
+2018-09-07 14:04:01,821 INFO 18098 [egg-watcher:app] watcher start success
+2018-09-07 14:04:01,827 INFO 18098 [egg:core] dump config after ready, 3ms
+2018-09-07 14:04:03,051 INFO 18113 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 14:04:03,089 INFO 18113 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 14:04:03,089 INFO 18113 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 14:04:03,134 INFO 18113 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 14:04:03,136 INFO 18113 [egg-security] use csrf middleware
+2018-09-07 14:04:03,141 INFO 18113 [egg-security] use methodnoallow middleware
+2018-09-07 14:04:03,141 INFO 18113 [egg-security] use noopen middleware
+2018-09-07 14:04:03,142 INFO 18113 [egg-security] use nosniff middleware
+2018-09-07 14:04:03,142 INFO 18113 [egg-security] use xssProtection middleware
+2018-09-07 14:04:03,142 INFO 18113 [egg-security] use xframe middleware
+2018-09-07 14:04:03,142 INFO 18113 [egg-security] use dta middleware
+2018-09-07 14:04:03,142 INFO 18113 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 14:04:03,188 INFO 18113 [egg:core] dump config after load, 4ms
+2018-09-07 14:04:03,228 INFO 18113 [egg-watcher:app] watcher start success
+2018-09-07 14:04:03,241 INFO 18113 [egg:core] dump config after ready, 7ms
+2018-09-07 14:04:24,965 INFO 18135 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 14:04:25,016 INFO 18135 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 14:04:25,016 INFO 18135 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 14:04:25,063 INFO 18135 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 14:04:25,064 INFO 18135 [egg-security] use csrf middleware
+2018-09-07 14:04:25,065 INFO 18135 [egg-security] use methodnoallow middleware
+2018-09-07 14:04:25,065 INFO 18135 [egg-security] use noopen middleware
+2018-09-07 14:04:25,065 INFO 18135 [egg-security] use nosniff middleware
+2018-09-07 14:04:25,065 INFO 18135 [egg-security] use xssProtection middleware
+2018-09-07 14:04:25,066 INFO 18135 [egg-security] use xframe middleware
+2018-09-07 14:04:25,066 INFO 18135 [egg-security] use dta middleware
+2018-09-07 14:04:25,066 INFO 18135 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 14:04:25,106 INFO 18135 [egg:core] dump config after load, 4ms
+2018-09-07 14:04:25,115 INFO 18135 [egg-watcher:app] watcher start success
+2018-09-07 14:04:25,120 INFO 18135 [egg:core] dump config after ready, 3ms
+2018-09-07 14:06:03,006 INFO 18190 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 14:06:03,046 INFO 18190 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 14:06:03,046 INFO 18190 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 14:06:03,093 INFO 18190 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 14:06:03,094 INFO 18190 [egg-security] use csrf middleware
+2018-09-07 14:06:03,095 INFO 18190 [egg-security] use methodnoallow middleware
+2018-09-07 14:06:03,095 INFO 18190 [egg-security] use noopen middleware
+2018-09-07 14:06:03,096 INFO 18190 [egg-security] use nosniff middleware
+2018-09-07 14:06:03,097 INFO 18190 [egg-security] use xssProtection middleware
+2018-09-07 14:06:03,097 INFO 18190 [egg-security] use xframe middleware
+2018-09-07 14:06:03,097 INFO 18190 [egg-security] use dta middleware
+2018-09-07 14:06:03,097 INFO 18190 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 14:06:03,143 INFO 18190 [egg:core] dump config after load, 4ms
+2018-09-07 14:06:03,152 INFO 18190 [egg-watcher:app] watcher start success
+2018-09-07 14:06:03,157 INFO 18190 [egg:core] dump config after ready, 3ms
+2018-09-07 14:06:20,664 INFO 18208 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 14:06:20,697 INFO 18208 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 14:06:20,697 INFO 18208 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 14:06:20,748 INFO 18208 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 14:06:20,749 INFO 18208 [egg-security] use csrf middleware
+2018-09-07 14:06:20,750 INFO 18208 [egg-security] use methodnoallow middleware
+2018-09-07 14:06:20,750 INFO 18208 [egg-security] use noopen middleware
+2018-09-07 14:06:20,751 INFO 18208 [egg-security] use nosniff middleware
+2018-09-07 14:06:20,751 INFO 18208 [egg-security] use xssProtection middleware
+2018-09-07 14:06:20,751 INFO 18208 [egg-security] use xframe middleware
+2018-09-07 14:06:20,751 INFO 18208 [egg-security] use dta middleware
+2018-09-07 14:06:20,751 INFO 18208 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 14:06:20,759 INFO 18208 [egg:core] dump config after load, 4ms
+2018-09-07 14:06:20,767 INFO 18208 [egg-watcher:app] watcher start success
+2018-09-07 14:06:20,772 INFO 18208 [egg:core] dump config after ready, 3ms
+2018-09-07 14:06:26,068 INFO 18221 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 14:06:26,102 INFO 18221 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 14:06:26,102 INFO 18221 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 14:06:26,173 INFO 18221 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 14:06:26,174 INFO 18221 [egg-security] use csrf middleware
+2018-09-07 14:06:26,175 INFO 18221 [egg-security] use methodnoallow middleware
+2018-09-07 14:06:26,175 INFO 18221 [egg-security] use noopen middleware
+2018-09-07 14:06:26,175 INFO 18221 [egg-security] use nosniff middleware
+2018-09-07 14:06:26,176 INFO 18221 [egg-security] use xssProtection middleware
+2018-09-07 14:06:26,176 INFO 18221 [egg-security] use xframe middleware
+2018-09-07 14:06:26,176 INFO 18221 [egg-security] use dta middleware
+2018-09-07 14:06:26,176 INFO 18221 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 14:06:26,183 INFO 18221 [egg:core] dump config after load, 3ms
+2018-09-07 14:06:26,193 INFO 18221 [egg-watcher:app] watcher start success
+2018-09-07 14:06:26,199 INFO 18221 [egg:core] dump config after ready, 3ms
+2018-09-07 14:06:40,296 INFO 18235 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 14:06:40,332 INFO 18235 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 14:06:40,332 INFO 18235 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 14:06:40,409 INFO 18235 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 14:06:40,411 INFO 18235 [egg-security] use csrf middleware
+2018-09-07 14:06:40,411 INFO 18235 [egg-security] use methodnoallow middleware
+2018-09-07 14:06:40,412 INFO 18235 [egg-security] use noopen middleware
+2018-09-07 14:06:40,412 INFO 18235 [egg-security] use nosniff middleware
+2018-09-07 14:06:40,412 INFO 18235 [egg-security] use xssProtection middleware
+2018-09-07 14:06:40,413 INFO 18235 [egg-security] use xframe middleware
+2018-09-07 14:06:40,413 INFO 18235 [egg-security] use dta middleware
+2018-09-07 14:06:40,413 INFO 18235 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 14:06:40,420 INFO 18235 [egg:core] dump config after load, 3ms
+2018-09-07 14:06:40,429 INFO 18235 [egg-watcher:app] watcher start success
+2018-09-07 14:06:40,434 INFO 18235 [egg:core] dump config after ready, 2ms
+2018-09-07 14:08:12,383 INFO 18641 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 14:08:12,415 INFO 18641 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 14:08:12,415 INFO 18641 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 14:08:12,497 INFO 18641 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 14:08:12,500 INFO 18641 [egg-security] use csrf middleware
+2018-09-07 14:08:12,500 INFO 18641 [egg-security] use methodnoallow middleware
+2018-09-07 14:08:12,501 INFO 18641 [egg-security] use noopen middleware
+2018-09-07 14:08:12,501 INFO 18641 [egg-security] use nosniff middleware
+2018-09-07 14:08:12,501 INFO 18641 [egg-security] use xssProtection middleware
+2018-09-07 14:08:12,502 INFO 18641 [egg-security] use xframe middleware
+2018-09-07 14:08:12,502 INFO 18641 [egg-security] use dta middleware
+2018-09-07 14:08:12,502 INFO 18641 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 14:08:12,513 INFO 18641 [egg:core] dump config after load, 6ms
+2018-09-07 14:08:12,530 INFO 18641 [egg-watcher:app] watcher start success
+2018-09-07 14:08:12,535 INFO 18641 [egg:core] dump config after ready, 3ms
+2018-09-07 14:08:52,274 INFO 18713 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 14:08:52,311 INFO 18713 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 14:08:52,311 INFO 18713 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 14:08:52,390 INFO 18713 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 14:08:52,392 INFO 18713 [egg-security] use csrf middleware
+2018-09-07 14:08:52,392 INFO 18713 [egg-security] use methodnoallow middleware
+2018-09-07 14:08:52,393 INFO 18713 [egg-security] use noopen middleware
+2018-09-07 14:08:52,393 INFO 18713 [egg-security] use nosniff middleware
+2018-09-07 14:08:52,394 INFO 18713 [egg-security] use xssProtection middleware
+2018-09-07 14:08:52,394 INFO 18713 [egg-security] use xframe middleware
+2018-09-07 14:08:52,394 INFO 18713 [egg-security] use dta middleware
+2018-09-07 14:08:52,394 INFO 18713 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 14:08:52,402 INFO 18713 [egg:core] dump config after load, 4ms
+2018-09-07 14:08:52,411 INFO 18713 [egg-watcher:app] watcher start success
+2018-09-07 14:08:52,416 INFO 18713 [egg:core] dump config after ready, 3ms
+2018-09-07 14:08:59,486 INFO 18783 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 14:08:59,518 INFO 18783 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 14:08:59,518 INFO 18783 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 14:08:59,587 INFO 18783 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 14:08:59,592 INFO 18783 [egg-security] use csrf middleware
+2018-09-07 14:08:59,593 INFO 18783 [egg-security] use methodnoallow middleware
+2018-09-07 14:08:59,593 INFO 18783 [egg-security] use noopen middleware
+2018-09-07 14:08:59,594 INFO 18783 [egg-security] use nosniff middleware
+2018-09-07 14:08:59,594 INFO 18783 [egg-security] use xssProtection middleware
+2018-09-07 14:08:59,594 INFO 18783 [egg-security] use xframe middleware
+2018-09-07 14:08:59,594 INFO 18783 [egg-security] use dta middleware
+2018-09-07 14:08:59,594 INFO 18783 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 14:08:59,602 INFO 18783 [egg:core] dump config after load, 4ms
+2018-09-07 14:08:59,616 INFO 18783 [egg-watcher:app] watcher start success
+2018-09-07 14:08:59,620 INFO 18783 [egg:core] dump config after ready, 3ms
+2018-09-07 14:09:14,887 INFO 18813 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 14:09:14,927 INFO 18813 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 14:09:14,927 INFO 18813 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 14:09:15,009 INFO 18813 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 14:09:15,011 INFO 18813 [egg-security] use csrf middleware
+2018-09-07 14:09:15,012 INFO 18813 [egg-security] use methodnoallow middleware
+2018-09-07 14:09:15,012 INFO 18813 [egg-security] use noopen middleware
+2018-09-07 14:09:15,013 INFO 18813 [egg-security] use nosniff middleware
+2018-09-07 14:09:15,013 INFO 18813 [egg-security] use xssProtection middleware
+2018-09-07 14:09:15,013 INFO 18813 [egg-security] use xframe middleware
+2018-09-07 14:09:15,013 INFO 18813 [egg-security] use dta middleware
+2018-09-07 14:09:15,013 INFO 18813 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 14:09:15,029 INFO 18813 [egg:core] dump config after load, 10ms
+2018-09-07 14:09:15,041 INFO 18813 [egg-watcher:app] watcher start success
+2018-09-07 14:09:15,046 INFO 18813 [egg:core] dump config after ready, 3ms
+2018-09-07 14:09:22,992 INFO 18849 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 14:09:23,024 INFO 18849 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 14:09:23,024 INFO 18849 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 14:09:23,091 INFO 18849 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 14:09:23,093 INFO 18849 [egg-security] use csrf middleware
+2018-09-07 14:09:23,096 INFO 18849 [egg-security] use methodnoallow middleware
+2018-09-07 14:09:23,097 INFO 18849 [egg-security] use noopen middleware
+2018-09-07 14:09:23,097 INFO 18849 [egg-security] use nosniff middleware
+2018-09-07 14:09:23,098 INFO 18849 [egg-security] use xssProtection middleware
+2018-09-07 14:09:23,098 INFO 18849 [egg-security] use xframe middleware
+2018-09-07 14:09:23,098 INFO 18849 [egg-security] use dta middleware
+2018-09-07 14:09:23,098 INFO 18849 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 14:09:23,105 INFO 18849 [egg:core] dump config after load, 3ms
+2018-09-07 14:09:23,116 INFO 18849 [egg-watcher:app] watcher start success
+2018-09-07 14:09:23,120 INFO 18849 [egg:core] dump config after ready, 3ms
+2018-09-07 14:09:33,898 INFO 18882 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 14:09:33,930 INFO 18882 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 14:09:33,930 INFO 18882 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 14:09:33,999 INFO 18882 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 14:09:34,001 INFO 18882 [egg-security] use csrf middleware
+2018-09-07 14:09:34,001 INFO 18882 [egg-security] use methodnoallow middleware
+2018-09-07 14:09:34,001 INFO 18882 [egg-security] use noopen middleware
+2018-09-07 14:09:34,002 INFO 18882 [egg-security] use nosniff middleware
+2018-09-07 14:09:34,002 INFO 18882 [egg-security] use xssProtection middleware
+2018-09-07 14:09:34,002 INFO 18882 [egg-security] use xframe middleware
+2018-09-07 14:09:34,002 INFO 18882 [egg-security] use dta middleware
+2018-09-07 14:09:34,002 INFO 18882 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 14:09:34,011 INFO 18882 [egg:core] dump config after load, 4ms
+2018-09-07 14:09:34,019 INFO 18882 [egg-watcher:app] watcher start success
+2018-09-07 14:09:34,024 INFO 18882 [egg:core] dump config after ready, 4ms
+2018-09-07 14:09:43,030 INFO 19017 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 14:09:43,063 INFO 19017 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 14:09:43,063 INFO 19017 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 14:09:43,129 INFO 19017 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 14:09:43,135 INFO 19017 [egg-security] use csrf middleware
+2018-09-07 14:09:43,135 INFO 19017 [egg-security] use methodnoallow middleware
+2018-09-07 14:09:43,135 INFO 19017 [egg-security] use noopen middleware
+2018-09-07 14:09:43,136 INFO 19017 [egg-security] use nosniff middleware
+2018-09-07 14:09:43,136 INFO 19017 [egg-security] use xssProtection middleware
+2018-09-07 14:09:43,136 INFO 19017 [egg-security] use xframe middleware
+2018-09-07 14:09:43,136 INFO 19017 [egg-security] use dta middleware
+2018-09-07 14:09:43,136 INFO 19017 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 14:09:43,144 INFO 19017 [egg:core] dump config after load, 4ms
+2018-09-07 14:09:43,154 INFO 19017 [egg-watcher:app] watcher start success
+2018-09-07 14:09:43,158 INFO 19017 [egg:core] dump config after ready, 2ms
+2018-09-07 14:09:59,183 INFO 19047 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 14:09:59,215 INFO 19047 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 14:09:59,215 INFO 19047 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 14:09:59,283 INFO 19047 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 14:09:59,284 INFO 19047 [egg-security] use csrf middleware
+2018-09-07 14:09:59,285 INFO 19047 [egg-security] use methodnoallow middleware
+2018-09-07 14:09:59,285 INFO 19047 [egg-security] use noopen middleware
+2018-09-07 14:09:59,285 INFO 19047 [egg-security] use nosniff middleware
+2018-09-07 14:09:59,286 INFO 19047 [egg-security] use xssProtection middleware
+2018-09-07 14:09:59,286 INFO 19047 [egg-security] use xframe middleware
+2018-09-07 14:09:59,286 INFO 19047 [egg-security] use dta middleware
+2018-09-07 14:09:59,286 INFO 19047 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 14:09:59,293 INFO 19047 [egg:core] dump config after load, 3ms
+2018-09-07 14:09:59,301 INFO 19047 [egg-watcher:app] watcher start success
+2018-09-07 14:09:59,305 INFO 19047 [egg:core] dump config after ready, 2ms
+2018-09-07 14:11:18,563 INFO 19110 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 14:11:18,603 INFO 19110 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 14:11:18,603 INFO 19110 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 14:11:18,678 INFO 19110 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 14:11:18,680 INFO 19110 [egg-security] use csrf middleware
+2018-09-07 14:11:18,681 INFO 19110 [egg-security] use methodnoallow middleware
+2018-09-07 14:11:18,681 INFO 19110 [egg-security] use noopen middleware
+2018-09-07 14:11:18,681 INFO 19110 [egg-security] use nosniff middleware
+2018-09-07 14:11:18,682 INFO 19110 [egg-security] use xssProtection middleware
+2018-09-07 14:11:18,682 INFO 19110 [egg-security] use xframe middleware
+2018-09-07 14:11:18,682 INFO 19110 [egg-security] use dta middleware
+2018-09-07 14:11:18,682 INFO 19110 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 14:11:18,690 INFO 19110 [egg:core] dump config after load, 4ms
+2018-09-07 14:11:18,700 INFO 19110 [egg-watcher:app] watcher start success
+2018-09-07 14:11:18,705 INFO 19110 [egg:core] dump config after ready, 3ms
+2018-09-07 14:11:25,267 INFO 19225 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 14:11:25,297 INFO 19225 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 14:11:25,297 INFO 19225 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 14:11:25,362 INFO 19225 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 14:11:25,364 INFO 19225 [egg-security] use csrf middleware
+2018-09-07 14:11:25,365 INFO 19225 [egg-security] use methodnoallow middleware
+2018-09-07 14:11:25,365 INFO 19225 [egg-security] use noopen middleware
+2018-09-07 14:11:25,366 INFO 19225 [egg-security] use nosniff middleware
+2018-09-07 14:11:25,366 INFO 19225 [egg-security] use xssProtection middleware
+2018-09-07 14:11:25,366 INFO 19225 [egg-security] use xframe middleware
+2018-09-07 14:11:25,367 INFO 19225 [egg-security] use dta middleware
+2018-09-07 14:11:25,367 INFO 19225 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 14:11:25,375 INFO 19225 [egg:core] dump config after load, 4ms
+2018-09-07 14:11:25,392 INFO 19225 [egg-watcher:app] watcher start success
+2018-09-07 14:11:25,396 INFO 19225 [egg:core] dump config after ready, 2ms
+2018-09-07 14:12:19,943 INFO 19347 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 14:12:19,976 INFO 19347 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 14:12:19,976 INFO 19347 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 14:12:20,048 INFO 19347 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 14:12:20,050 INFO 19347 [egg-security] use csrf middleware
+2018-09-07 14:12:20,050 INFO 19347 [egg-security] use methodnoallow middleware
+2018-09-07 14:12:20,050 INFO 19347 [egg-security] use noopen middleware
+2018-09-07 14:12:20,051 INFO 19347 [egg-security] use nosniff middleware
+2018-09-07 14:12:20,051 INFO 19347 [egg-security] use xssProtection middleware
+2018-09-07 14:12:20,051 INFO 19347 [egg-security] use xframe middleware
+2018-09-07 14:12:20,052 INFO 19347 [egg-security] use dta middleware
+2018-09-07 14:12:20,052 INFO 19347 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 14:12:20,059 INFO 19347 [egg:core] dump config after load, 4ms
+2018-09-07 14:12:20,070 INFO 19347 [egg-watcher:app] watcher start success
+2018-09-07 14:12:20,074 INFO 19347 [egg:core] dump config after ready, 3ms
+2018-09-07 14:17:52,689 INFO 19961 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 14:17:52,722 INFO 19961 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 14:17:52,722 INFO 19961 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 14:17:52,814 INFO 19961 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 14:17:52,816 INFO 19961 [egg-security] use csrf middleware
+2018-09-07 14:17:52,817 INFO 19961 [egg-security] use methodnoallow middleware
+2018-09-07 14:17:52,817 INFO 19961 [egg-security] use noopen middleware
+2018-09-07 14:17:52,818 INFO 19961 [egg-security] use nosniff middleware
+2018-09-07 14:17:52,818 INFO 19961 [egg-security] use xssProtection middleware
+2018-09-07 14:17:52,819 INFO 19961 [egg-security] use xframe middleware
+2018-09-07 14:17:52,819 INFO 19961 [egg-security] use dta middleware
+2018-09-07 14:17:52,819 INFO 19961 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 14:18:04,703 INFO 19961 [egg-view-nunjucks] loading templates from ["/Users/khanfan/workspace/github/mock-server/app/view"]
+2018-09-07 14:18:18,969 INFO 19961 [egg:core] dump config after load, 7ms
+2018-09-07 14:18:19,009 INFO 19961 [egg-watcher:app] watcher start success
+2018-09-07 14:18:19,017 INFO 19961 [egg:core] dump config after ready, 4ms
+2018-09-07 14:19:01,682 INFO 20075 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 14:19:01,729 INFO 20075 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 14:19:01,729 INFO 20075 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 14:19:01,859 INFO 20075 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 14:19:01,862 INFO 20075 [egg-security] use csrf middleware
+2018-09-07 14:19:01,863 INFO 20075 [egg-security] use methodnoallow middleware
+2018-09-07 14:19:01,863 INFO 20075 [egg-security] use noopen middleware
+2018-09-07 14:19:01,864 INFO 20075 [egg-security] use nosniff middleware
+2018-09-07 14:19:01,864 INFO 20075 [egg-security] use xssProtection middleware
+2018-09-07 14:19:01,865 INFO 20075 [egg-security] use xframe middleware
+2018-09-07 14:19:01,866 INFO 20075 [egg-security] use dta middleware
+2018-09-07 14:19:01,866 INFO 20075 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 14:19:03,915 INFO 20075 [egg:core] dump config after load, 8ms
+2018-09-07 14:19:03,928 INFO 20075 [egg-watcher:app] watcher start success
+2018-09-07 14:19:03,934 INFO 20075 [egg:core] dump config after ready, 5ms
+2018-09-07 14:20:15,034 INFO 20395 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 14:20:15,075 INFO 20395 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 14:20:15,075 INFO 20395 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 14:20:15,214 INFO 20395 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 14:20:15,216 INFO 20395 [egg-security] use csrf middleware
+2018-09-07 14:20:15,217 INFO 20395 [egg-security] use methodnoallow middleware
+2018-09-07 14:20:15,217 INFO 20395 [egg-security] use noopen middleware
+2018-09-07 14:20:15,219 INFO 20395 [egg-security] use nosniff middleware
+2018-09-07 14:20:15,220 INFO 20395 [egg-security] use xssProtection middleware
+2018-09-07 14:20:15,220 INFO 20395 [egg-security] use xframe middleware
+2018-09-07 14:20:15,221 INFO 20395 [egg-security] use dta middleware
+2018-09-07 14:20:15,221 INFO 20395 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 14:20:17,163 INFO 20395 [egg:core] dump config after load, 7ms
+2018-09-07 14:20:17,181 INFO 20395 [egg-watcher:app] watcher start success
+2018-09-07 14:20:17,188 INFO 20395 [egg:core] dump config after ready, 5ms
+2018-09-07 14:20:46,729 INFO 20395 [egg-view-nunjucks] loading templates from ["/Users/khanfan/workspace/github/mock-server/app/view"]
+2018-09-07 14:22:30,712 WARN 20395 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2018-09-07 14:22:30,713 WARN 20395 [ClusterClient:Watcher] follower closed, and try to init it again
+2018-09-07 14:22:44,677 INFO 20616 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 14:22:44,710 INFO 20616 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 14:22:44,710 INFO 20616 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 14:22:44,803 INFO 20616 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 14:22:44,806 INFO 20616 [egg-security] use csrf middleware
+2018-09-07 14:22:44,806 INFO 20616 [egg-security] use methodnoallow middleware
+2018-09-07 14:22:44,807 INFO 20616 [egg-security] use noopen middleware
+2018-09-07 14:22:44,807 INFO 20616 [egg-security] use nosniff middleware
+2018-09-07 14:22:44,807 INFO 20616 [egg-security] use xssProtection middleware
+2018-09-07 14:22:44,808 INFO 20616 [egg-security] use xframe middleware
+2018-09-07 14:22:44,808 INFO 20616 [egg-security] use dta middleware
+2018-09-07 14:22:44,808 INFO 20616 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 14:22:44,817 INFO 20616 [egg:core] dump config after load, 3ms
+2018-09-07 14:22:44,828 INFO 20616 [egg-watcher:app] watcher start success
+2018-09-07 14:22:44,833 INFO 20616 [egg:core] dump config after ready, 3ms
+2018-09-07 14:25:25,611 INFO 20876 [egg:logger] init all loggers with options: {"dir":"/Users/khanfan/workspace/github/mock-server/logs/mock-server","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"mock-server-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2018-09-07 14:25:25,657 INFO 20876 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-09-07 14:25:25,657 INFO 20876 [egg-schedule]: register schedule /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-09-07 14:25:25,764 INFO 20876 [egg-static] starting static serve /public/ -> /Users/khanfan/workspace/github/mock-server/app/public
+2018-09-07 14:25:25,766 INFO 20876 [egg-security] use csrf middleware
+2018-09-07 14:25:25,767 INFO 20876 [egg-security] use methodnoallow middleware
+2018-09-07 14:25:25,767 INFO 20876 [egg-security] use noopen middleware
+2018-09-07 14:25:25,767 INFO 20876 [egg-security] use nosniff middleware
+2018-09-07 14:25:25,768 INFO 20876 [egg-security] use xssProtection middleware
+2018-09-07 14:25:25,768 INFO 20876 [egg-security] use xframe middleware
+2018-09-07 14:25:25,768 INFO 20876 [egg-security] use dta middleware
+2018-09-07 14:25:25,768 INFO 20876 [egg-security] compose 7 middlewares into one security middleware
+2018-09-07 14:25:25,782 INFO 20876 [egg:core] dump config after load, 8ms
+2018-09-07 14:25:25,811 INFO 20876 [egg-watcher:app] watcher start success
+2018-09-07 14:25:25,817 INFO 20876 [egg:core] dump config after ready, 4ms

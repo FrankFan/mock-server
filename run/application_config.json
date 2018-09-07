@@ -211,7 +211,8 @@
         "egg-view-nunjucks": "^2.2.0"
       },
       "devDependencies": {
-        "egg-bin": "^4.8.3"
+        "egg-bin": "^4.8.3",
+        "mockjs": "^1.0.1-beta3"
       }
     },
     "baseDir": "/Users/khanfan/workspace/github/mock-server",
@@ -479,10 +480,10 @@
       "path": "/Users/khanfan/workspace/github/mock-server/node_modules/egg-view",
       "version": "2.1.0"
     },
-    "nunjuncks": {
+    "nunjucks": {
       "enable": true,
       "package": "egg-view-nunjucks",
-      "name": "nunjuncks",
+      "name": "nunjucks",
       "dependencies": [
         "security",
         "view"
