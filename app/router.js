@@ -6,4 +6,5 @@ module.exports = app => {
 
   // finizi
   router.get('/finizi/loan/capital', controller.finizi.capital);
+  router.get('/finizi/loan/capital/:pageNo/:pageSize', controller.finizi.capital);
 }

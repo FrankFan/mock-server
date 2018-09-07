@@ -2,7 +2,8 @@ const Service = require('egg').Service;
 const Mock = require('mockjs');
 
 class FiniziService extends Service {
-  async getCapitalList(page = 1, pageSize) {
+  async getCapitalList(pageNo = 1, pageSize) {
+    this.ctx.logger.info(`pageNo = ${pageNo}, pageSize = ${pageSize}`);
     var data = Mock.mock({
       'list|3': [{
         'amount|100-99999.3': 1,
