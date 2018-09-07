@@ -1,0 +1,14 @@
+2018-09-06 18:11:46,444 INFO 99672 [Timer] /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-09-07 00:00:00.000
+2018-09-06 18:11:46,445 INFO 99672 [Timer] /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-09-07 00:00:01.000
+2018-09-06 19:11:39,757 INFO 2500 [Timer] /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-09-07 00:00:00.000
+2018-09-06 19:11:39,757 INFO 2500 [Timer] /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-09-07 00:00:01.000
+2018-09-06 19:12:05,129 INFO 2857 [Timer] /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-09-07 00:00:00.000
+2018-09-06 19:12:05,130 INFO 2857 [Timer] /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-09-07 00:00:01.000
+2018-09-06 19:16:02,542 INFO 3089 [Timer] /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-09-07 00:00:00.000
+2018-09-06 19:16:02,543 INFO 3089 [Timer] /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-09-07 00:00:01.000
+2018-09-06 19:19:21,461 INFO 3500 [Timer] /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-09-07 00:00:00.000
+2018-09-06 19:19:21,462 INFO 3500 [Timer] /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-09-07 00:00:01.000
+2018-09-06 20:47:43,021 INFO 7914 [Timer] /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-09-07 00:00:00.000
+2018-09-06 20:47:43,021 INFO 7914 [Timer] /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-09-07 00:00:01.000
+2018-09-07 10:24:18,086 INFO 9655 [Timer] /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-09-08 00:00:00.000
+2018-09-07 10:24:18,087 INFO 9655 [Timer] /Users/khanfan/workspace/github/mock-server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-09-08 00:00:01.000

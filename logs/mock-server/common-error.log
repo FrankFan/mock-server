@@ -1,0 +1,383 @@
+2018-09-06 18:43:29,792 ERROR 1374 [-/127.0.0.1/-/8ms GET /news] nodejs.TypeError: Cannot destructure property `serviceUrl` of 'undefined' or 'null'.
+    at NewsService.list (/Users/khanfan/workspace/github/mock-server/app/service/news.js:9:21)
+    at NewsController.list (/Users/khanfan/workspace/github/mock-server/app/controller/news.js:7:45)
+    at Object.callFn (/Users/khanfan/workspace/github/mock-server/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/khanfan/workspace/github/mock-server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/khanfan/workspace/github/mock-server/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/khanfan/workspace/github/mock-server/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/khanfan/workspace/github/mock-server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/khanfan/workspace/github/mock-server/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/khanfan/workspace/github/mock-server/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/khanfan/workspace/github/mock-server/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 1374
+hostname: KhandeMacBook-Pro.local
+
+2018-09-06 18:45:00,816 ERROR 1443 [-/127.0.0.1/-/5027ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/khanfan/workspace/github/mock-server/node_modules/urllib/lib/urllib.js:818:15)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"headers":{},"size":0,"aborted":false,"rt":5017,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 1443
+hostname: KhandeMacBook-Pro.local
+
+2018-09-06 18:46:10,168 ERROR 1443 [-/127.0.0.1/-/5005ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/khanfan/workspace/github/mock-server/node_modules/urllib/lib/urllib.js:818:15)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ConnectionTimeoutError"
+requestId: 2
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"headers":{},"size":0,"aborted":false,"rt":5004,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 1443
+hostname: KhandeMacBook-Pro.local
+
+2018-09-06 18:46:21,419 ERROR 1443 [-/127.0.0.1/-/5003ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":3,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/khanfan/workspace/github/mock-server/node_modules/urllib/lib/urllib.js:818:15)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ConnectionTimeoutError"
+requestId: 3
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"headers":{},"size":0,"aborted":false,"rt":5002,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 1443
+hostname: KhandeMacBook-Pro.local
+
+2018-09-06 18:46:59,087 ERROR 1443 [-/127.0.0.1/-/5006ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":4,"createSocketErrorCount":0,"closeSocketCount":4,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/khanfan/workspace/github/mock-server/node_modules/urllib/lib/urllib.js:818:15)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ConnectionTimeoutError"
+requestId: 4
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"headers":{},"size":0,"aborted":false,"rt":5006,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 1443
+hostname: KhandeMacBook-Pro.local
+
+2018-09-06 18:47:59,454 ERROR 1443 [-/127.0.0.1/-/5004ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":5,"createSocketErrorCount":0,"closeSocketCount":5,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/khanfan/workspace/github/mock-server/node_modules/urllib/lib/urllib.js:818:15)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ConnectionTimeoutError"
+requestId: 5
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"headers":{},"size":0,"aborted":false,"rt":5003,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 1443
+hostname: KhandeMacBook-Pro.local
+
+2018-09-06 19:07:38,095 ERROR 1443 [-/127.0.0.1/-/5007ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":6,"createSocketErrorCount":0,"closeSocketCount":6,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/khanfan/workspace/github/mock-server/node_modules/urllib/lib/urllib.js:818:15)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ConnectionTimeoutError"
+requestId: 6
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"headers":{},"size":0,"aborted":false,"rt":5007,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 1443
+hostname: KhandeMacBook-Pro.local
+
+2018-09-06 19:08:15,124 ERROR 1443 [-/127.0.0.1/-/5002ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":7,"createSocketErrorCount":0,"closeSocketCount":7,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/khanfan/workspace/github/mock-server/node_modules/urllib/lib/urllib.js:818:15)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ConnectionTimeoutError"
+requestId: 7
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"headers":{},"size":0,"aborted":false,"rt":5002,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 1443
+hostname: KhandeMacBook-Pro.local
+
+2018-09-06 19:20:56,113 ERROR 3500 nodejs.ClusterClientNoResponseError: client no response in 74666ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/khanfan/workspace/github/mock-server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 3500
+hostname: KhandeMacBook-Pro.local
+
+2018-09-06 19:21:22,147 ERROR 3504 nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET http://m.cashalo.com/ -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/khanfan/workspace/github/mock-server/node_modules/urllib/lib/urllib.js:818:15)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ConnectionTimeoutError"
+requestId: 1
+data: undefined
+path: "/"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"headers":{},"size":0,"aborted":false,"rt":7949,"keepAliveSocket":false,"requestUrls":["http://m.cashalo.com/"],"timing":null,"remoteAddress":"52.77.77.119","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 3504
+hostname: KhandeMacBook-Pro.local
+
+2018-09-06 19:22:36,122 ERROR 3500 nodejs.ClusterClientNoResponseError: client no response in 73967ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/khanfan/workspace/github/mock-server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 3500
+hostname: KhandeMacBook-Pro.local
+
+2018-09-06 19:24:53,683 ERROR 3504 [-/127.0.0.1/-/304194ms GET /news] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/khanfan/workspace/github/mock-server/node_modules/urllib/lib/urllib.js:818:15)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ConnectionTimeoutError"
+requestId: 2
+data: undefined
+path: "/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"headers":{},"size":0,"aborted":false,"rt":5015,"keepAliveSocket":false,"requestUrls":["https://hacker-news.firebaseio.com/v0/topstories.json"],"timing":null,"remoteAddress":"35.201.97.85","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 3504
+hostname: KhandeMacBook-Pro.local
+
+2018-09-06 19:24:53,752 ERROR 3504 nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET http://m.baidu.com/ -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+headers: {}
+    at Timeout._onTimeout (/Users/khanfan/workspace/github/mock-server/node_modules/urllib/lib/urllib.js:818:15)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ConnectionTimeoutError"
+requestId: 3
+data: undefined
+path: "/"
+status: -2
+headers: {}
+res: {"status":-2,"statusCode":-2,"headers":{},"size":0,"aborted":false,"rt":9678,"keepAliveSocket":false,"requestUrls":["http://m.baidu.com/"],"timing":null,"remoteAddress":"115.239.217.67","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}
+pid: 3504
+hostname: KhandeMacBook-Pro.local
+
+2018-09-06 21:58:38,123 ERROR 7914 nodejs.ClusterClientNoResponseError: client no response in 2258608ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/khanfan/workspace/github/mock-server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 7914
+hostname: KhandeMacBook-Pro.local
+
+2018-09-06 21:58:49,467 ERROR 2500 nodejs.ClusterClientNoResponseError: client no response in 2269890ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/khanfan/workspace/github/mock-server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 2500
+hostname: KhandeMacBook-Pro.local
+
+2018-09-06 22:36:51,278 ERROR 2500 nodejs.ClusterClientNoResponseError: client no response in 2241785ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/khanfan/workspace/github/mock-server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 2500
+hostname: KhandeMacBook-Pro.local
+
+2018-09-06 22:36:55,831 ERROR 7914 nodejs.ClusterClientNoResponseError: client no response in 2241852ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/khanfan/workspace/github/mock-server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 7914
+hostname: KhandeMacBook-Pro.local
+
+2018-09-07 00:37:49,273 ERROR 2500 nodejs.ClusterClientNoResponseError: client no response in 7217977ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/khanfan/workspace/github/mock-server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 2500
+hostname: KhandeMacBook-Pro.local
+
+2018-09-07 00:37:54,452 ERROR 7914 nodejs.ClusterClientNoResponseError: client no response in 7218599ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/khanfan/workspace/github/mock-server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 7914
+hostname: KhandeMacBook-Pro.local
+
+2018-09-07 00:53:51,601 ERROR 7914 nodejs.ClusterClientNoResponseError: client no response in 937105ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/khanfan/workspace/github/mock-server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 7914
+hostname: KhandeMacBook-Pro.local
+
+2018-09-07 00:54:06,453 ERROR 2500 nodejs.ClusterClientNoResponseError: client no response in 937144ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/khanfan/workspace/github/mock-server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 2500
+hostname: KhandeMacBook-Pro.local
+
+2018-09-07 02:08:51,187 ERROR 2500 nodejs.ClusterClientNoResponseError: client no response in 4464715ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/khanfan/workspace/github/mock-server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 2500
+hostname: KhandeMacBook-Pro.local
+
+2018-09-07 02:08:56,328 ERROR 7914 nodejs.ClusterClientNoResponseError: client no response in 4464705ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/khanfan/workspace/github/mock-server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 7914
+hostname: KhandeMacBook-Pro.local
+
+2018-09-07 02:49:14,029 ERROR 2500 nodejs.ClusterClientNoResponseError: client no response in 2385622ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/khanfan/workspace/github/mock-server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 2500
+hostname: KhandeMacBook-Pro.local
+
+2018-09-07 02:49:20,077 ERROR 7914 nodejs.ClusterClientNoResponseError: client no response in 2386547ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/khanfan/workspace/github/mock-server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 7914
+hostname: KhandeMacBook-Pro.local
+
+2018-09-07 04:50:01,835 ERROR 7914 nodejs.ClusterClientNoResponseError: client no response in 7221732ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/khanfan/workspace/github/mock-server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 7914
+hostname: KhandeMacBook-Pro.local
+
+2018-09-07 04:50:13,613 ERROR 2500 nodejs.ClusterClientNoResponseError: client no response in 7219550ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/khanfan/workspace/github/mock-server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 2500
+hostname: KhandeMacBook-Pro.local
+
+2018-09-07 06:51:10,880 ERROR 2500 nodejs.ClusterClientNoResponseError: client no response in 7217241ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/khanfan/workspace/github/mock-server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 2500
+hostname: KhandeMacBook-Pro.local
+
+2018-09-07 06:51:15,052 ERROR 7914 nodejs.ClusterClientNoResponseError: client no response in 7217255ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/khanfan/workspace/github/mock-server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 7914
+hostname: KhandeMacBook-Pro.local
+
+2018-09-07 08:52:07,922 ERROR 2500 nodejs.ClusterClientNoResponseError: client no response in 7217023ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/khanfan/workspace/github/mock-server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 2500
+hostname: KhandeMacBook-Pro.local
+
+2018-09-07 08:52:12,107 ERROR 7914 nodejs.ClusterClientNoResponseError: client no response in 7217025ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/khanfan/workspace/github/mock-server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 7914
+hostname: KhandeMacBook-Pro.local
+
+2018-09-07 09:40:32,940 ERROR 7914 nodejs.ClusterClientNoResponseError: client no response in 2880806ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/khanfan/workspace/github/mock-server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 7914
+hostname: KhandeMacBook-Pro.local
+
+2018-09-07 09:40:44,965 ERROR 2500 nodejs.ClusterClientNoResponseError: client no response in 2877021ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/khanfan/workspace/github/mock-server/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+name: "ClusterClientNoResponseError"
+pid: 2500
+hostname: KhandeMacBook-Pro.local
+
