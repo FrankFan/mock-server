@@ -23,6 +23,8 @@
     <li><a href="/finizi/loan/capital/1/20">/finizi/loan/capital/:pageNo/:pageSize</li>
     <li><a href="/finizi/getPaymentUrl">/finizi/getPaymentUrl</a></li>
     <li><a href="/finizi/paymentOptions">/finizi/paymentOptions</a></li>
+    <li><a href="/finizi/inviteList">/finizi/inviteList</a></li>
+    <li><a href="/finizi/shareContent">/finizi/shareContent</a></li>
   </ol>
 </div
 {% endblock%}

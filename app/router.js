@@ -20,4 +20,6 @@ module.exports = app => {
   router.get('/finizi/loan/capital/:pageNo/:pageSize', controller.finizi.capital);
   router.get('/finizi/getPaymentUrl', controller.finizi.getPaymentUrl);
   router.get('/finizi/paymentOptions', controller.finizi.paymentOptions);
+  router.get('/finizi/inviteList', controller.finizi.inviteList);
+  router.get('/finizi/shareContent', controller.finizi.shareContent);
 }

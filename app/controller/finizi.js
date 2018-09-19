@@ -39,6 +39,30 @@ class FiniziController extends Controller {
 
     this.ctx.body = responsJSON;
   }
+
+  async inviteList() {
+    const data = await this.ctx.service.finizi.getInviteList();
+
+    const responsJSON = {
+      res_code: 0,
+      res_msg: 'success',
+      data,
+    };
+
+    this.ctx.body = responsJSON;
+  }
+
+  async shareContent() {
+    const data = await this.ctx.service.finizi.getShareContent();
+
+    const responsJSON = {
+      res_code: 0,
+      res_msg: 'success',
+      data,
+    };
+
+    this.ctx.body = responsJSON;
+  }
 }
 
 module.exports = FiniziController;
