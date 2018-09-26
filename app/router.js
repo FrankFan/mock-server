@@ -8,6 +8,9 @@ module.exports = app => {
   // cashalo
   router.get('/cashalo', controller.home.cashalo);
 
+  router.get('/cashalo/paymentOptions', controller.cashalo.paymentOptions);
+  router.get('/cashalo/getPaymentUrl', controller.cashalo.getPaymentUrl);
+
   // finmas
   router.get('/finmas', controller.home.finmas);
 

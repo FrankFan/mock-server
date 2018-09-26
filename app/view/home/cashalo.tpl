@@ -16,5 +16,11 @@
 {% endblock %}
 
 {% block content %}
-cashalo
+<div class="content-view v-transition">
+  <h2>Cashalo API:</h2>
+  <ol>
+    <li><a href="/cashalo/paymentOptions">/cashalo/paymentOptions</a></li>
+    <li><a href="/cashalo/getPaymentUrl">/cashalo/getPaymentUrl</a></li>
+  </ol>
+</div
 {% endblock%}

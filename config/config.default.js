@@ -14,6 +14,7 @@ exports.security = {
     'http://localhost:4200',
     'http://192.168.2.124:8080',
     'http://192.168.12.12:8080',
+    'http://localhost:8080',
   ]
 };
 
