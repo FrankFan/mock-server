@@ -68,19 +68,19 @@
 {% block columns %}
 <div class="row">
   <div class="col-lg-4">
-    <img class="rounded-circle" src="https://ws4.sinaimg.cn/large/006tNbRwgy1fv4h7ogt6xj3042042glm.jpg" alt="" width="140" height="140">
+    <img class="rounded-circle" src="/public/imgs/cashalo-logo.png" alt="" width="140" height="140">
     <h2>Cashalo</h2>
     <p>Philippines</p>
     <p><a class="btn btn-secondary" href="/cashalo" role="button">View details &raquo;</a></p>
   </div><!-- /.col-lg-4 -->
   <div class="col-lg-4">
-    <img class="rounded-circle" src="http://placeholder.qiniudn.com/140x140/FF9500/000" alt="" width="140" height="140">
+    <img class="rounded-circle" src="/public/imgs/finmas-logo.png" alt="" width="140" height="140">
     <h2>Finmas</h2>
     <p>Indonesia</p>
     <p><a class="btn btn-secondary" href="/finmas" role="button">View details &raquo;</a></p>
   </div><!-- /.col-lg-4 -->
   <div class="col-lg-4">
-    <img class="rounded-circle" src="http://placeholder.qiniudn.com/140x140/007AFF/fff" alt="" width="140" height="140">
+    <img class="rounded-circle" src="/public/imgs/finizi-logo.png" alt="" width="140" height="140">
     <h2>Finizi</h2>
     <p>Vietnam</p>
     <p><a class="btn btn-secondary" href="/finizi" role="button">View details &raquo;</a></p>
