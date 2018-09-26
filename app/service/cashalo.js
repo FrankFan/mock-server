@@ -1,7 +1,7 @@
 const Service = require('egg').Service;
 const Mock = require('mockjs');
 
-class FiniziService extends Service {
+class CashaloService extends Service {
   async paymentOptions() {
     this.ctx.logger.info(`request finizi.serice.paymentOptions`);
     var data = Mock.mock({
@@ -159,6 +159,66 @@ class FiniziService extends Service {
     });
     return data.url;
   }
+
+  async rewardsRule() {
+    this.ctx.logger.info(`request finizi.serice.getPaymentUrl`);
+    var data = Mock.mock({
+      list: [{
+          "ruleItem": "ySeuB8kRSy",
+          "myRewards": 82319
+        },
+        {
+          "ruleItem": "m9QpBo0pm7",
+          "myRewards": 82465
+        },
+        {
+          "ruleItem": "KS5MXjHtVz",
+          "myRewards": 55073
+        }
+      ]
+    });
+    return data.list;
+  }
+  async invitationResult() {
+    this.ctx.logger.info(`request finizi.serice.getPaymentUrl`);
+    var data = Mock.mock({
+      body: {
+        "eventRewards": 98741,
+        "invitedFriends": 24327,
+        "awardedRewards": 74249
+      }
+    });
+    return data.body;
+  }
+  async awardList() {
+    this.ctx.logger.info(`request finizi.serice.getPaymentUrl`);
+    var data = Mock.mock({
+      body: [{
+          "activityName": "L2oMvV5Jlk",
+          "startDate": "1537949375828",
+          "endDate": "1537948546256",
+          "paidAmount": "WSzW8EeHkV",
+          "unpaidAmount": "fYzcIWKFy5"
+        },
+        {
+          "activityName": "9tU3a7wxzs",
+          "startDate": "1537948316918",
+          "endDate": "1537949968230",
+          "paidAmount": "WZ5QLfXOsa",
+          "unpaidAmount": "eHmDnuocox"
+        },
+        {
+          "activityName": "CUECocCIXv",
+          "startDate": "1537948360731",
+          "endDate": "1537948254571",
+          "paidAmount": "gnjHYrMxsB",
+          "unpaidAmount": "zPINlehXK1"
+        }
+      ]
+    });
+    return data.body;
+  }
+
 }
 
-module.exports = FiniziService;
+module.exports = CashaloService;

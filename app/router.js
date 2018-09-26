@@ -1,5 +1,8 @@
 module.exports = app => {
-  const { router, controller } = app;
+  const {
+    router,
+    controller
+  } = app;
   // router.get('/news', controller.news.list);
 
   // home
@@ -10,6 +13,9 @@ module.exports = app => {
 
   router.get('/cashalo/paymentOptions', controller.cashalo.paymentOptions);
   router.get('/cashalo/getPaymentUrl', controller.cashalo.getPaymentUrl);
+  router.get('/cashalo/rewardsRule', controller.cashalo.rewardsRule);
+  router.get('/cashalo/invitationResult', controller.cashalo.invitationResult);
+  router.get('/cashalo/awardList', controller.cashalo.awardList);
 
   // finmas
   router.get('/finmas', controller.home.finmas);
