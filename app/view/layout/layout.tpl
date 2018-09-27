@@ -93,7 +93,7 @@
       </div>
     </main>
     <footer class="footer">
-      <p>&copy; 2017-2018 Copyleft · Mock Server</p>
+      <p>&copy; 2018 Copyleft · Mock Server</p>
     </footer>
 
     <!-- Optional JavaScript -->
