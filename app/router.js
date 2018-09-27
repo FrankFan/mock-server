@@ -13,9 +13,10 @@ module.exports = app => {
 
   router.get('/cashalo/paymentOptions', controller.cashalo.paymentOptions);
   router.get('/cashalo/getPaymentUrl', controller.cashalo.getPaymentUrl);
-  router.get('/cashalo/rewardsRule', controller.cashalo.rewardsRule);
-  router.get('/cashalo/invitationResult', controller.cashalo.invitationResult);
-  router.get('/cashalo/awardList', controller.cashalo.awardList);
+  router.get('/cashalo/common/invitation/rewardsRule', controller.cashalo.rewardsRule);
+  router.get('/cashalo/common/invitation/invitationResult', controller.cashalo.invitationResult);
+  router.get('/cashalo/common/invitation/award/list', controller.cashalo.awardList);
+  router.get('/cashalo/common/invitation/contents', controller.cashalo.shareContent);
 
   // finmas
   router.get('/finmas', controller.home.finmas);

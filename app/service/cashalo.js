@@ -193,32 +193,56 @@ class CashaloService extends Service {
   async awardList() {
     this.ctx.logger.info(`request finizi.serice.getPaymentUrl`);
     var data = Mock.mock({
-      body: [{
-          "activityName": "L2oMvV5Jlk",
-          "startDate": "1537949375828",
-          "endDate": "1537948546256",
-          "paidAmount": "WSzW8EeHkV",
-          "unpaidAmount": "fYzcIWKFy5"
-        },
-        {
-          "activityName": "9tU3a7wxzs",
-          "startDate": "1537948316918",
-          "endDate": "1537949968230",
-          "paidAmount": "WZ5QLfXOsa",
-          "unpaidAmount": "eHmDnuocox"
-        },
-        {
-          "activityName": "CUECocCIXv",
-          "startDate": "1537948360731",
-          "endDate": "1537948254571",
-          "paidAmount": "gnjHYrMxsB",
-          "unpaidAmount": "zPINlehXK1"
-        }
-      ]
+      "body|1-10": [{
+        "activityName": /\w{10}/,
+        "startDate": "1537949375828",
+        "endDate": "1537948546256",
+        "paidAmount": /\d{4}/,
+        "unpaidAmount": /\d{4}/
+      }, ]
     });
     return data.body;
   }
 
+  async shareContent() {
+    this.ctx.logger.info(`request finizi.serice.getPaymentUrl`);
+    const data = Mock.mock({
+      "list": [{
+        "channel": "Copy as text",
+        "url": "111111",
+        "title": "22222",
+        "subtitle": "33333",
+        "imageUrl": "444444",
+        "messageBody": "这是Copy as text的内容",
+        "iconUrl": "https://s3-ap-southeast-1.amazonaws.com/oriente-resource/common/invite/invitefriend_icon_email@2x.png"
+      }, {
+        "channel": "Facebook",
+        "url": "1111",
+        "title": "22222",
+        "subtitle": "3333",
+        "imageUrl": "444",
+        "messageBody": "5555",
+        "iconUrl": "https://s3-ap-southeast-1.amazonaws.com/oriente-resource/common/invite/invitefriend_icon_fb@2x.png"
+      }, {
+        "channel": "Copy as text",
+        "url": "111111",
+        "title": "22222",
+        "subtitle": "33333",
+        "imageUrl": "444444",
+        "messageBody": "这是Copy as text的内容",
+        "iconUrl": "https://s3-ap-southeast-1.amazonaws.com/oriente-resource/common/invite/invitefriend_icon_email@2x.png"
+      }, {
+        "channel": "Facebook",
+        "url": "1111",
+        "title": "22222",
+        "subtitle": "3333",
+        "imageUrl": "444",
+        "messageBody": "5555",
+        "iconUrl": "https://s3-ap-southeast-1.amazonaws.com/oriente-resource/common/invite/invitefriend_icon_fb@2x.png"
+      }]
+    });
+    return data.list;
+  }
 }
 
 module.exports = CashaloService;

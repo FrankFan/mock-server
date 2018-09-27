@@ -21,9 +21,10 @@
   <ol>
     <li><a href="/cashalo/paymentOptions">/cashalo/paymentOptions</a></li>
     <li><a href="/cashalo/getPaymentUrl">/cashalo/getPaymentUrl</a></li>
-    <li><a href="/cashalo/rewardsRule">/cashalo/rewardsRule</a></li>
-    <li><a href="/cashalo/invitationResult">/cashalo/invitationResult</a></li>
-    <li><a href="/cashalo/awardList">/cashalo/awardList</a></li>
+    <li><a href="/cashalo/common/invitation/rewardsRule">/cashalo/common/invitation/rewardsRule</a></li>
+    <li><a href="/cashalo/common/invitation/invitationResult">/cashalo/common/invitation/invitationResult</a></li>
+    <li><a href="/cashalo/common/invitation/award/list">/cashalo/common/invitation/award/list</a></li>
+    <li><a href="/cashalo/common/invitation/contents">/cashalo/common/invitation/contents</a></li>
   </ol>
 </div
 {% endblock%}
