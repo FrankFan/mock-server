@@ -193,13 +193,17 @@ class CashaloService extends Service {
   async awardList() {
     this.ctx.logger.info(`request finizi.serice.getPaymentUrl`);
     var data = Mock.mock({
-      "body|1-10": [{
-        "activityName": /\w{10}/,
-        "startDate": "1537949375828",
-        "endDate": "1537948546256",
-        "paidAmount": /\d{4}/,
-        "unpaidAmount": /\d{4}/
-      }, ]
+      "body": {
+        "totalNum": 30,
+        "items|7": [{
+          "activityName": /\w{10}/,
+          "startDate": "1537949375828",
+          "endDate": "1537948546256",
+          "paidAmount": /\d{4}/,
+          "unpaidAmount": /\d{4}/
+        }]
+      }
+
     });
     return data.body;
   }
@@ -239,6 +243,62 @@ class CashaloService extends Service {
         "imageUrl": "444",
         "messageBody": "5555",
         "iconUrl": "https://s3-ap-southeast-1.amazonaws.com/oriente-resource/common/invite/invitefriend_icon_fb@2x.png"
+      }]
+    });
+    return data.list;
+  }
+
+  async getInviteList() {
+    this.ctx.logger.info(`getInviteList`);
+    var data = Mock.mock({
+      'list|1': [{
+        "currentPage": 1,
+        "pageSize": 5,
+        "totalNum": 26,
+        "isMore": 94210,
+        "totalPage": 1,
+        "startIndex": 25697,
+        "items": [{
+          "number": 8,
+          "mobile": "091****6972",
+          "registrationDate": "Jul 8, 2018",
+          "applied": "Yes"
+        }, {
+          "number": 7,
+          "mobile": "091****6972",
+          "registrationDate": "Jul 8, 2018",
+          "applied": "Not yet"
+        }, {
+          "number": 6,
+          "mobile": "091****6972",
+          "registrationDate": "Jul 8, 2018",
+          "applied": "Yes"
+        }, {
+          "number": 5,
+          "mobile": "091****6972",
+          "registrationDate": "Jul 8, 2018",
+          "applied": "Yes"
+        }, {
+          "number": 4,
+          "mobile": "091****6972",
+          "registrationDate": "Jul 8, 2018",
+          "applied": "Not yet"
+        }, {
+          "number": 3,
+          "mobile": "091****6972",
+          "registrationDate": "Jul 8, 2018",
+          "applied": "Yes"
+        }, {
+          "number": 2,
+          "mobile": "091****6972",
+          "registrationDate": "Jul 8, 2018",
+          "applied": "Not yet"
+        }, {
+          "number": 1,
+          "mobile": "091****6972",
+          "registrationDate": "Jul 8, 2018",
+          "applied": "Yes"
+        }]
       }]
     });
     return data.list;

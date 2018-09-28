@@ -74,6 +74,16 @@ class CashaloController extends Controller {
 
     this.ctx.body = responsJSON;
   }
+  async getInviteList() {
+    const data = await this.ctx.service.cashalo.getInviteList();
+    const responsJSON = {
+      res_code: 0,
+      res_msg: 'success',
+      data,
+    };
+
+    this.ctx.body = responsJSON;
+  }
 }
 
 module.exports = CashaloController;

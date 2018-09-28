@@ -17,6 +17,7 @@ module.exports = app => {
   router.get('/cashalo/common/invitation/invitationResult', controller.cashalo.invitationResult);
   router.get('/cashalo/common/invitation/award/list', controller.cashalo.awardList);
   router.get('/cashalo/common/invitation/contents', controller.cashalo.shareContent);
+  router.get('/cashalo/common/invitation/list', controller.cashalo.getInviteList);
 
   // finmas
   router.get('/finmas', controller.home.finmas);

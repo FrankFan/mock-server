@@ -25,6 +25,7 @@
     <li><a href="/cashalo/common/invitation/invitationResult">/cashalo/common/invitation/invitationResult</a></li>
     <li><a href="/cashalo/common/invitation/award/list">/cashalo/common/invitation/award/list</a></li>
     <li><a href="/cashalo/common/invitation/contents">/cashalo/common/invitation/contents</a></li>
+    <li><a href="/cashalo/common/invitation/list">/cashalo/common/invitation/list</a></li>
   </ol>
 </div
 {% endblock%}
