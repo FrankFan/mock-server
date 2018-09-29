@@ -194,13 +194,20 @@ class CashaloService extends Service {
     this.ctx.logger.info(`request finizi.serice.getPaymentUrl`);
     var data = Mock.mock({
       "body": {
-        "totalNum": 30,
+        "currentPage": 1,
+        "pageSize": 5,
+        "totalNum": 26,
+        "isMore": 94210,
+        "totalPage": 1,
+        "startIndex": 25697,
         "items|7": [{
           "activityName": /\w{10}/,
           "startDate": "1537949375828",
           "endDate": "1537948546256",
-          "paidAmount": /\d{4}/,
-          "unpaidAmount": /\d{4}/
+          "activeAmount": /\d{4}/,
+          "activeUnpaidAmount": /\d{4}/,
+          "totalRewards": 29569,
+          "inActived": '@boolean()'
         }]
       }
 
